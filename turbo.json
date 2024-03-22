@@ -1,0 +1,18 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["build-config-file"],
+      "inputs": ["$TURBO_DEFAULT$", "config.json"]
+    },
+    "build-config-file": {
+      "cache": false
+    }
+  },
+  "globalEnv": [
+    "NODE_ENV"
+  ],
+  "remoteCache": {
+    "signature": true
+  }
+}

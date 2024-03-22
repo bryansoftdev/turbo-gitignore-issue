@@ -1,0 +1,9 @@
+{
+  "name": "app-1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build-config-file": "date >> config.json",
+    "build": "cat config.json"
+  }
+}

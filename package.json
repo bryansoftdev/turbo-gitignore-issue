@@ -1,0 +1,19 @@
+{
+  "name": "sad-face",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build-config-file": "turbo run build-config-file",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^1.13.0"
+  },
+  "engines": {
+    "node": ">=16.17.0"
+  },
+  "packageManager": "pnpm@7.18.0",
+  "pnpm": {
+    "overrides": {}
+  }
+}
